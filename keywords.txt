@@ -6,13 +6,14 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-LiquidCrystal	KEYWORD1
+LiquidCrystalRus	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
 begin	KEYWORD2
+send	KEYWORD2
 clear	KEYWORD2
 home	KEYWORD2
 print	KEYWORD2

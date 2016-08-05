@@ -101,9 +101,9 @@ public:
   void command(uint8_t);
 
   void setDRAMModel(uint8_t);
+  void send(uint8_t, uint8_t);
 
 private:
-  void send(uint8_t, uint8_t);
   void writeNbits(uint8_t, uint8_t);
   uint8_t recv(uint8_t);
   uint8_t readNbits(uint8_t); 
